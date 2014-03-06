@@ -1,0 +1,36 @@
+body {
+	background: #BBEAFF;
+	font-family: Helvetica;
+	margin: 10px;
+	line-height: 20px;
+}
+
+h1 {
+	background: #fff;
+	padding: 10px 50px;
+	text-align: center;
+	margin: 2px auto 20px;
+	width
+	min-width: 1000px;
+}
+
+#main {
+	width: 800px;
+	float: center;
+	margin: auto;
+	text-align: justify;
+	background: #8FCBE8;
+	padding: 20px;
+	padding-top: 2px;
+}
+
+h2 {
+	background: #BBEAFF;
+	padding: 10px;
+	height: 20px;
+}
+
+h3 {
+	color: #fff;
+	font-size: 14px;
+}
