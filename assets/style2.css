@@ -1,5 +1,5 @@
 body {
-	background: #BBEAFF;
+	background: #ffcccc;
 	font-family: Helvetica;
 	margin: 10px;
 	line-height: 20px;
@@ -19,7 +19,7 @@ h1 {
 	float: center;
 	margin: auto;
 	text-align: justify;
-	background: #8FCBE8;
+	background: #ffcccc;
 	padding: 20px;
 	padding-top: 2px;
 }
