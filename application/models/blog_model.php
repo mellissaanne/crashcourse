@@ -23,6 +23,11 @@
 			$data['title'] = $this->input->post('title');
 			$data['content'] = $this->input->post('content');
 			$data['tags'] = $this->input->post('tags');
+			$data['Prof'] = $this->input->post('Prof');
+			$data['Rateone'] = $this->input->post('Rateone');
+			$data['Ratetwo'] = $this->input->post('Ratetwo');
+			$data['Ratethree'] = $this->input->post('Ratethree');
+			$data['Ratefour'] = $this->input->post('Ratefour');
 
 			return $this->db->insert('DATA', $data);
 		}
