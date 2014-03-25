@@ -23,6 +23,11 @@
 			$data['title'] = $this->input->post('title');
 			$data['content'] = $this->input->post('content');
 			$data['tags'] = $this->input->post('tags');
+			$data['Prof'] = $this->input->post('Prof');
+			$data['Rateone'] = $this->input->post('Rateone');
+			$data['Ratetwo'] = $this->input->post('Ratetwo');
+			$data['Ratethree'] = $this->input->post('Ratethree');
+			$data['Ratefour'] = $this->input->post('Ratefour');
 
 			return $this->db->insert('DATA', $data);
 		}
@@ -48,5 +53,13 @@
 		{ 
 
   			$this->db->delete('DATA', array('id' => $id)); 
+		}
+
+		function search_post()
+		{
+			$search_term = $this->input->post('searchquery');
+			$sql = "SELECT * FROM DATA WHERE MATCH (title, content) AGAINST ('" . $search_term . "')";
+			$query = $this->db->query($sql);
+			return $query->result_array();
 		}
 	}

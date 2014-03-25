@@ -1,28 +1,34 @@
 
-		<h1><?php echo $title; ?> | Admin</h1>	
+		<h1><?php echo $title; ?></h1>	
 
 <div id = "main">		
 		<?php echo form_open('Admin/create') ?>
 		
-		<h2> Create New Post</h2>
-			<label>Title</label>
+		<h2>Write a Review</h2>
+			<label>Course Code</label>
 			<textarea type="text" name="title"></textarea>
 			<br>
-			<label>Content</label>	
+			<label>Professor</label>
+			<textarea name="Prof"></textarea>
+			<br>
+			<label>Review</label>	
 			<textarea name="content"></textarea>
 			<br>
 			<label>Tags (separate with commas)</label>	
 			<textarea name="tags"></textarea>
+			<br>
+			<h2>Rate on a scale of 1 to 5.<h2>
+			<h3>5 = very, 1 = not at all<h3>
+			<label>Difficulty</label>
+			<textarea name="Rateone"></textarea><br>
+			<label>Usefulness</label>
+			<textarea name="Ratetwo"></textarea><br>
+			<label>Workload</label>
+			<textarea name="Ratethree"></textarea><br>
+			<label>Enjoyment</label>
+			<textarea name="Ratefour"></textarea>
 			<input type="submit" name="submit" value="create">
 		</form>
-
-		<div id = "postlist">
-			<h6><a href="http://phoenix.sheridanc.on.ca/~ccit1561/crashcourse/index.php/blog" title="Blog">View Blog</a></h6>
-			<h2>Edit Posts</h2> 
-			<ul> 
-	  			<?php foreach($posts as $post): ?> 
-	    		<li><a href="/~ccit1561/crashcourse/index.php/Admin/update/<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a> | <a href="/~ccit1561/cct460/index.php/Admin/delete/<?php echo $post['id']; ?>">delete post</a></li>
-	  			<?php endforeach; ?> 
 			</ul>
 		</div>
 </div>
