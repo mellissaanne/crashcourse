@@ -7,8 +7,8 @@
 			<input type="text" name="title" value="<?php echo $p['title']; ?>">
 			<label>Content</label>	
 			<textarea name="content"><?php echo $p['content']; ?></textarea>
-			<label>Tags</label>	
-			<textarea name="tags"><?php echo $p['tags']; ?></textarea>
+			<label>Professor</label>	
+			<textarea name="Prof"><?php echo $p['Prof']; ?></textarea>
 			<input type="submit" name="submit" value="Save">
 		</form>
 	<?php endforeach; ?>

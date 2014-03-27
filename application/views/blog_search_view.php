@@ -10,8 +10,11 @@
 	<div id = "main">
 		<?php foreach($posts as $post): ?>
 			<h3> <a href="/~ccit1561/crashcourse/index.php/blog/post/<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-			<p> <?php echo $post['content']; ?></p>
-			<h3> <?php echo $post['tags']; ?></h3>
+
+				<label>Description</label> 
+				<p> <?php echo $post['content']; ?></p>
+				<label>Professor:</label> 
+				<p> <?php echo $post['Prof']; ?></p>
 		<?php endforeach; ?>	
 
 	</div>	

@@ -23,6 +23,7 @@
       $data['title'] = "Crash Course";
       $this->blog_model->create_post();
       $this->load->view('templates/header', $data);
+      $this->load->view('templates/nav', $data);
       $this->load->view('admin_success_view');
       $this->load->view('templates/footer', $data);
     }
@@ -33,6 +34,7 @@
       $data['title'] = "Crash Course"; 
       $data['post'] = $this->blog_model->getPost($id); 
       $this->load->view('templates/header', $data);
+      $this->load->view('templates/nav', $data);
       $this->load->view('admin_update', $data);
       $this->load->view('templates/footer', $data);
     }
@@ -43,6 +45,7 @@
       $data['title'] = "Crash Course"; 
       $this->blog_model->update_post($id); 
       $this->load->view('templates/header', $data);
+      $this->load->view('templates/nav', $data);
       $this->load->view('admin_update_success_view', $data);
       $this->load->view('templates/footer', $data);
     }
@@ -53,7 +56,8 @@
 
       $data['title'] = "Crash Course"; 
       $this->blog_model->delete_post($id);
-      $this->load->view('templates/header', $data); 
+      $this->load->view('templates/header', $data);
+      $this->load->view('templates/nav', $data); 
       $this->load->view('admin_post_deleted_view'); 
       $this->load->view('templates/footer', $data);
     }
