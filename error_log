@@ -43,3 +43,6 @@
 [20-Mar-2014 14:36:34 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 16
 [20-Mar-2014 15:23:07 America/New_York] PHP Parse error:  syntax error, unexpected '[', expecting T_VARIABLE or '$' in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 24
 [27-Mar-2014 16:22:28 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 25
+[27-Mar-2014 17:32:06 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
+[27-Mar-2014 17:32:41 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
+[03-Apr-2014 16:56:38 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36

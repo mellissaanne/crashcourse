@@ -1,0 +1,70 @@
+
+
+
+body {
+	background: #fff;
+	font-family: Helvetica;
+}
+#nav {
+	background: #FFDA47;
+	text-align: center;
+	width: 99%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+
+#header {
+	text-align: center;
+}
+
+#result
+{
+	border-bottom: 1px solid #000;
+	padding: 10px;
+}
+
+#list
+{
+	background-color: #F5F5F5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 99%;
+}
+
+
+#whole {
+	background: #ffdf;
+	padding-top: 100px;
+	text-align: center;
+	width: 99%;
+	height: 400px;
+
+}
+
+footer {
+	margin-bottom: 10px;
+
+}
+
+#main
+{
+
+	margin-left: 10px;
+}
+
+#footer
+{
+	padding-top: 50px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 99%;
+}
+
+#comments
+{
+	background-color: #FFFFCC;
+	width: 99%;
+}

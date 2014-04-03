@@ -31,6 +31,9 @@
 		{
 			$data['comment'] = $this->input->post('comment');
 			$data['rateone'] = $this->input->post('rateone');
+			$data['ratetwo'] = $this->input->post('ratetwo');
+			$data['ratethree'] = $this->input->post('ratethree');
+			$data['ratefour'] = $this->input->post('ratefour');
 			$data['post_id'] = $post_id;
 
 			return $this->db->insert('COMMENTS', $data);

@@ -33,10 +33,7 @@
       $data['post'] = $this->blog_model->getPost($id);
       $data['comments'] = $this->blog_model->get_comments($id);
 
-      $totalRating = $this->blog_model->get_total_rating($id);
-      $highestRating = $this->blog_model->get_highest_rating($id);
-
-      $data['avg_rating'] = $totalRating/$highestRating;
+  
 
       $this->load->view('templates/header', $data);
       $this->load->view('templates/nav', $data);
