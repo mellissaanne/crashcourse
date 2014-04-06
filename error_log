@@ -26,3 +26,23 @@
 [06-Feb-2014 15:51:45 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::update_post() in /home/ccit1561/public_html/cct460/application/controllers/Admin.php on line 35
 [06-Feb-2014 16:33:45 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ccit1561/public_html/cct460/application/controllers/Admin.php on line 15
 [06-Feb-2014 16:33:54 America/New_York] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/ccit1561/public_html/cct460/application/controllers/Admin.php on line 15
+[20-Mar-2014 13:41:46 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::create_comment() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 25
+[20-Mar-2014 14:10:30 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 16
+[20-Mar-2014 14:12:52 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:01 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:17 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:18 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:19 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:21 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:39 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:13:41 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:14:39 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:14:39 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:14:42 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:16:06 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_comments() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 19
+[20-Mar-2014 14:36:34 America/New_York] PHP Fatal error:  Call to undefined function form_open() in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 16
+[20-Mar-2014 15:23:07 America/New_York] PHP Parse error:  syntax error, unexpected '[', expecting T_VARIABLE or '$' in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 24
+[27-Mar-2014 16:22:28 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 25
+[27-Mar-2014 17:32:06 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
+[27-Mar-2014 17:32:41 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
+[03-Apr-2014 16:56:38 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
