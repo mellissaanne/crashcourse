@@ -19,21 +19,60 @@
 				<input type="radio" name="rateone" value="3">3
 				<input type="radio" name="rateone" value="4">4
 				<input type="radio" name="rateone" value="5">5
-				<br><br>
+				<br>
+
+				<?php
+				$total_rate_one = 0;
+				$post_count = 0;
+					foreach($comments as $c) {
+						$post_count += 1;
+						$total_rate_one += $c['rateone'];
+					}
+				echo "Average rating: " . round($total_rate_one / $post_count, 1);
+				
+				?>
+
+				<br>
 				<label>Usefulness</label>
 				<input type="radio" name="ratetwo" value="1">1
 				<input type="radio" name="ratetwo" value="2">2
 				<input type="radio" name="ratetwo" value="3">3
 				<input type="radio" name="ratetwo" value="4">4
 				<input type="radio" name="ratetwo" value="5">5
-				<br><br>
+				<br>
+
+				<?php
+				$total_rate_two = 0;
+				$post_count = 0;
+					foreach($comments as $c) {
+						$post_count += 1;
+						$total_rate_two += $c['ratetwo'];
+					}
+				echo "Average rating: " . round($total_rate_two / $post_count, 1);
+				
+				?>
+
+				<br>
 				<label>Enjoyment</label>
 				<input type="radio" name="ratethree" value="1">1
 				<input type="radio" name="ratethree" value="2">2
 				<input type="radio" name="ratethree" value="3">3
 				<input type="radio" name="ratethree" value="4">4
 				<input type="radio" name="ratethree" value="5">5
-				<Br><br>
+				<br>
+
+				<?php
+				$total_rate_three = 0;
+				$post_count = 0;
+					foreach($comments as $c) {
+						$post_count += 1;
+						$total_rate_three += $c['ratethree'];
+					}
+				echo "Average rating: " . round($total_rate_three / $post_count, 1);
+				
+				?>
+
+				<br>
 				<label>Workload</label>
 				<input type="radio" name="ratefour" value="1">1
 				<input type="radio" name="ratefour" value="2">2
@@ -41,7 +80,18 @@
 				<input type="radio" name="ratefour" value="4">4
 				<input type="radio" name="ratefour" value="5">5
 
+				<br>
 
+				<?php
+				$total_rate_four = 0;
+				$post_count = 0;
+					foreach($comments as $c) {
+						$post_count += 1;
+						$total_rate_four += $c['ratefour'];
+					}
+				echo "Average rating: " . round($total_rate_four / $post_count, 1);
+				
+				?>
 
 
 
