@@ -46,4 +46,7 @@
 [27-Mar-2014 17:32:06 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
 [27-Mar-2014 17:32:41 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
 [03-Apr-2014 16:56:38 America/New_York] PHP Fatal error:  Call to undefined method Blog_model::get_total_rating() in /home/ccit1561/public_html/crashcourse/application/controllers/blog.php on line 36
+<<<<<<< HEAD
 [06-Apr-2014 17:48:57 America/New_York] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/ccit1561/public_html/crashcourse/application/views/blog_single_view.php on line 31
+=======
+>>>>>>> FETCH_HEAD

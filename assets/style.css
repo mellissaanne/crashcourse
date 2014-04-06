@@ -1,10 +1,15 @@
 
+<<<<<<< HEAD
  @import url(http://fonts.googleapis.com/css?family=Oswald);
   @import url(http://fonts.googleapis.com/css?family=Oswald:300);
+=======
+
+>>>>>>> FETCH_HEAD
 
 body {
 	background: #fff;
 	font-family: Helvetica;
+<<<<<<< HEAD
 
 }
 #nav {
@@ -14,6 +19,15 @@ body {
 	width: 99%;
 	padding-top: px;
 	padding-bottom: 0px;
+=======
+}
+#nav {
+	background: #FFDA47;
+	text-align: center;
+	width: 99%;
+	padding-top: 30px;
+	padding-bottom: 10px;
+>>>>>>> FETCH_HEAD
 }
 
 
@@ -25,6 +39,7 @@ body {
 {
 	border-bottom: 1px solid #000;
 	padding: 10px;
+<<<<<<< HEAD
 }
 
 #list
@@ -43,10 +58,30 @@ body {
 	width: 99%;
 	height: 400px;
 
+=======
+}
+
+#list
+{
+	background-color: #F5F5F5;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 99%;
+}
+
+
+#whole {
+	background: #ffdf;
+	padding-top: 100px;
+	text-align: center;
+	width: 99%;
+	height: 400px;
+>>>>>>> FETCH_HEAD
 
 }
 
 footer {
+<<<<<<< HEAD
 	margin-bottom: 50px;
 margin-top: 50px;
 }
@@ -129,3 +164,30 @@ label
 {
 	font-weight: 400px;
 }
+=======
+	margin-bottom: 10px;
+
+}
+
+#main
+{
+
+	margin-left: 10px;
+}
+
+#footer
+{
+	padding-top: 50px;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding-bottom: 50px;
+	width: 99%;
+}
+
+#comments
+{
+	background-color: #FFFFCC;
+	width: 99%;
+}
+>>>>>>> FETCH_HEAD

@@ -18,7 +18,11 @@
     function search()
     {
       $this->load->helper('form');
+<<<<<<< HEAD
       $data['title'] = "Courses";
+=======
+      $data['title'] = "My blog";
+>>>>>>> FETCH_HEAD
       $data['posts'] = $this->blog_model->search_post();
       $this->load->view('templates/header', $data);
       $this->load->view('templates/nav', $data);

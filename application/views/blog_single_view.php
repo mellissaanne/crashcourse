@@ -19,6 +19,7 @@
 				<input type="radio" name="rateone" value="3">3
 				<input type="radio" name="rateone" value="4">4
 				<input type="radio" name="rateone" value="5">5
+<<<<<<< HEAD
 				<br>
 
 				<?php
@@ -33,12 +34,16 @@
 				?>
 
 				<br>
+=======
+				<br><br>
+>>>>>>> FETCH_HEAD
 				<label>Usefulness</label>
 				<input type="radio" name="ratetwo" value="1">1
 				<input type="radio" name="ratetwo" value="2">2
 				<input type="radio" name="ratetwo" value="3">3
 				<input type="radio" name="ratetwo" value="4">4
 				<input type="radio" name="ratetwo" value="5">5
+<<<<<<< HEAD
 				<br>
 
 				<?php
@@ -53,12 +58,16 @@
 				?>
 
 				<br>
+=======
+				<br><br>
+>>>>>>> FETCH_HEAD
 				<label>Enjoyment</label>
 				<input type="radio" name="ratethree" value="1">1
 				<input type="radio" name="ratethree" value="2">2
 				<input type="radio" name="ratethree" value="3">3
 				<input type="radio" name="ratethree" value="4">4
 				<input type="radio" name="ratethree" value="5">5
+<<<<<<< HEAD
 				<br>
 
 				<?php
@@ -73,6 +82,9 @@
 				?>
 
 				<br>
+=======
+				<Br><br>
+>>>>>>> FETCH_HEAD
 				<label>Workload</label>
 				<input type="radio" name="ratefour" value="1">1
 				<input type="radio" name="ratefour" value="2">2
@@ -80,6 +92,7 @@
 				<input type="radio" name="ratefour" value="4">4
 				<input type="radio" name="ratefour" value="5">5
 
+<<<<<<< HEAD
 				<br>
 
 				<?php
@@ -92,6 +105,9 @@
 				echo "Average rating: " . round($total_rate_four / $post_count, 1);
 				
 				?>
+=======
+
+>>>>>>> FETCH_HEAD
 
 
 
